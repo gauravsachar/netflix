@@ -102,7 +102,7 @@ var user = document.getElementById('sign')
 user.addEventListener('click', () => {
     var comp = prompt("Enter the email: ")
     if (comp == "gauravsachar29@gmail.com") {
-        window.location.href = "http://www.w3schools.com";
+        window.location.href = "/netflix-clone.github.io/profile.html";
 
     } else {
         alert("Please enter valid username")
@@ -116,7 +116,7 @@ var user2 = document.getElementById('sign_in')
 user2.addEventListener('click', () => {
     var comp = prompt("Enter the email: ")
     if (comp == "gauravsachar29@gmail.com") {
-        window.location.href = "http://www.w3schools.com";
+        window.location.href = "/netflix-clone.github.io/profile.html";
 
     } else {
         alert("Please enter valid username")
